@@ -10,9 +10,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+            padding: 20px;
         }
         .container {
             text-align: center;
@@ -20,6 +21,7 @@
             background-color: white;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
         }
         a {
             display: inline-block;
@@ -29,9 +31,39 @@
             text-decoration: none;
             border-radius: 5px;
             font-size: 18px;
+            margin: 10px 0;
         }
         a:hover {
             background-color: #C13584;
+        }
+        .services {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .services h2 {
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+        }
+        .services h3 {
+            font-size: 20px;
+            color: #E1306C;
+            margin-top: 20px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            padding: 10px 0;
+            font-size: 16px;
+            border-bottom: 1px solid #eee;
+        }
+        .note {
+            font-size: 14px;
+            color: #666;
+            font-style: italic;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -40,6 +72,24 @@
         <h1>Decent Makeovers by Simran</h1>
         <p>Explore my latest makeup transformations and beauty tips!</p>
         <a href="https://www.instagram.com/decentmakeoversbysimran" target="_blank">Visit My Instagram</a>
+        <div class="services">
+            <h2>My Services</h2>
+            <h3>Nail Services</h3>
+            <ul>
+                <li>Shellac - $25</li>
+                <li>Gel Extensions - $55</li>
+                <li>Acrylic Extensions - $50</li>
+            </ul>
+            <p class="note">*Extra charges may apply based on design selection and accessories.</p>
+            <h3>Makeup Services</h3>
+            <ul>
+                <li>Party Makeup (Makeup and Hair) - $130</li>
+                <li>Engagement Makeup - $250-$300</li>
+                <li>Bridal Makeup - $450</li>
+                <li>Reception Makeup - $500</li>
+            </ul>
+            <p class="note">*Extra charges may apply for lenses, hair accessories, and hair extensions.</p>
+        </div>
     </div>
 </body>
 </html>
